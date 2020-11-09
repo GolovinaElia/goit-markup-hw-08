@@ -1,0 +1,111 @@
+.principles {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.principles-list-item::before {
+  content: "";
+  max-width: 450px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+  background-color: #F5F4FA; 
+}
+.icon-antenna::before {
+  background-image: url(../images/principles/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/principles/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/principles/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/principles/astronaut.svg);
+}
+.principles-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $title-theme-color;
+}
+.principles-list-discription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: $description-color;
+  padding-top: 10px;
+}
+@media screen and (max-width: 479px) {
+  .principles-list-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+  .principles-list-title {
+    text-align: center;
+  }
+  .principles-list-discription {
+    margin-right: 15px;
+    margin-left: 15px ;
+  }
+  }
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .principles-list-item::before {
+      width: 450px;
+    }
+    .principles-list-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+  .principles-list-title {
+    text-align: center;
+  }
+  .principles-list-discription {
+    margin-right: 15px;
+    margin-left: 15px ;
+  }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .principles-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .principles-list-item::before {
+      width: 354px;
+    }
+    .principles-list-title {
+      margin-left: 15px;
+  }
+    .principles-list-discription {
+      width: 354px;
+    }
+    .principles-list-item:nth-child(-n + 2) {
+      margin-bottom: 30px;
+    }
+    .principles-list-item:nth-child(2n + 1) {
+      margin-right: 30px;
+    } 
+  }
+  @media screen and (min-width: 1200px) {
+    .principles {
+    padding: 94px 0;
+&-list {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+    }
+.principles-list-item::before {
+  width: 270px;
+   }
+  .principles-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.principles-list-discription {
+width: 270px;
+  }
+}

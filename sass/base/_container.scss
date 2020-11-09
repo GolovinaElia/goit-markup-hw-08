@@ -1,0 +1,72 @@
+ .container {
+   width: 100%;
+   margin: 0 auto;
+   .header & {
+     padding: 0 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+   .team & {
+  padding: 60px 0;
+}
+.clients & {
+  padding: 0 15px;
+}
+.footer & {
+  padding: 0 15px;
+}
+   .portfolio & {
+  padding: 60px 0;
+}
+ }
+ @media screen and (min-width: 480px) {
+  .container {
+   padding-left: 15px;
+   padding-right: 15px;
+    .header & {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+  }
+  }
+  @media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+        .footer & {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+   .header & {
+     height: 80px;
+     padding: 0 15px;
+      display: flex;
+}
+}
+  }
+  @media screen and (min-width: 1200px) {
+  .container {
+  min-width: 1200px;
+  padding: 0 15px;
+  .header & {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services & {
+  margin-left: auto;
+    margin-right: auto;
+}
+.team & {
+  padding: 94px 0;
+}
+   .footer & {
+    display: flex;
+    }
+    .portfolio & {
+  padding: 94px 0;
+}
+  }
+}
