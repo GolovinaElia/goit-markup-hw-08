@@ -77,6 +77,10 @@ color: $secondary-color;
   }
   .subscribe {
     margin-top: 60px;
+    &-form-input {
+      max-width: 450px;
+      width: 150%;
+    }
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
