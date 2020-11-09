@@ -823,7 +823,7 @@ img {
   }
   .subscribe-form-input {
     max-width: 450px;
-    width: 150%;
+    width: 100%;
   }
 }
 
