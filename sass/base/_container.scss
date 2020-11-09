@@ -2,7 +2,6 @@
    width: 100%;
    margin: 0 auto;
    .header & {
-     padding: 0 15px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -22,6 +21,7 @@
  }
  @media screen and (min-width: 480px) {
   .container {
+    min-width: 480px;
    padding-left: 15px;
    padding-right: 15px;
     .header & {
