@@ -145,6 +145,12 @@ color: $accent-color;
 padding-left: 3px;
 }
 }
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 85%;
+    padding: 40px;
+} 
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;

@@ -65,11 +65,7 @@ color: $secondary-color;
 }
 }
 @media screen and (max-width: 479px) {
-  .footer {
-width: 100%;
-min-width: 480px;
-  }
-  .address {
+.address {
     margin-bottom: 60px;
   }
   .contact-list {
@@ -82,7 +78,6 @@ min-width: 480px;
   .subscribe {
     margin-top: 60px;
     &-form-input {
-      max-width: 450px;
       width: 100%;
     }
   }
@@ -133,9 +128,6 @@ min-width: 480px;
 }
 .subscribe-name {
   margin-top: 60px;
-}
-.subscribe-form-input {
-width: 450px;
 }
 }
 @media screen and (min-width: 1200px) {
