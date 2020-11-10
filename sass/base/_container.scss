@@ -1,34 +1,38 @@
  .container {
-   width: 100%;
-   margin: 0 auto;
+   padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
    .header & {
+    //  padding-left: 15px;
+    //  padding-right: 15px;
       display: flex;
       justify-content: space-between;
       align-items: center;
 }
-   .team & {
-  padding: 60px 0;
-}
-.clients & {
-  padding: 0 15px;
-}
-.footer & {
-  padding: 0 15px;
-}
+// .principles & {
+//   // padding-left: 15px;
+//   // padding-right: 15px;
+// }
+//    .team & {
+//   padding: 60px 0;
+// }
+// .clients & {
+//   padding: 0 15px;
+// }
+// .footer & {
+//   padding: 0 15px;
+// }
    .portfolio & {
   padding: 60px 0;
 }
  }
  @media screen and (min-width: 480px) {
   .container {
-    min-width: 480px;
    padding-left: 15px;
    padding-right: 15px;
-    .header & {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-}
+   margin-left: auto;
+   margin-right: auto;
   }
   }
   @media screen and (min-width: 768px) {
@@ -63,6 +67,7 @@
   padding: 94px 0;
 }
    .footer & {
+     width: 1200px;
     display: flex;
     }
     .portfolio & {

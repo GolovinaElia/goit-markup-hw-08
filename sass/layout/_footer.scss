@@ -65,6 +65,10 @@ color: $secondary-color;
 }
 }
 @media screen and (max-width: 479px) {
+  .footer {
+width: 100%;
+min-width: 480px;
+  }
   .address {
     margin-bottom: 60px;
   }
